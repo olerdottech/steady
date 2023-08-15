@@ -101,14 +101,14 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>${snapshots.repo.id}</id>
-			<name>snapshots</name>
-			<url>${snapshots.repo}</url>
+			<id>Nexus</id>
+			<name>test snapshots</name>
+			<url>http://3.84.7.207:8081/repository/test_snapshot/</url>
 		</snapshotRepository>
 		<repository>
-			<id>${releases.repo.id}</id>
-			<name>releases</name>
-			<url>${releases.repo}</url>
+			<id>Nexus</id>
+			<name>test release</name>
+			<url>http://3.84.7.207:8081/repository/test_release/</url>
 		</repository>
 	</distributionManagement>
 
