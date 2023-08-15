@@ -25,8 +25,8 @@
 
 	<groupId>org.eclipse.steady</groupId>
 	<artifactId>root</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>3.2.6-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
 	<name>Eclipse Steady</name>
 	<description>Analyses your Java and Python applications for open-source dependencies with known vulnerabilities, using both static analysis and testing to determine code context and usage for greater accuracy.</description>
